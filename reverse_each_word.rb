@@ -8,7 +8,7 @@ def reverse_each_word(ordered_string)
     reversed_array << reversed_word
   end
   
-  reversed_array.join(" ")
+  puts reversed_array.join(" ")
 
 end
 
