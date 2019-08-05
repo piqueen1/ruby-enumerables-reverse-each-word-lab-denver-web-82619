@@ -8,8 +8,6 @@ def reverse_each_word(ordered_string)
     reversed_array << reversed_word
   end
   
-  puts reversed_array.join(" ")
-
+ final = reversed_array.join(" ")
+ final
 end
-
-reverse_each_word("Brian is my baby forever")
