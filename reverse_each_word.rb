@@ -1,4 +1,3 @@
-=begin
 def reverse_each_word(ordered_string)
   ordered_array = ordered_string.split(" ")
   reversed_array = []
@@ -12,7 +11,6 @@ def reverse_each_word(ordered_string)
  final = reversed_array.join(" ")
  final
 end
-=end
 
 def reverse_each_word(ordered_string)
   ordered_array = ordered_string.split(" ")
